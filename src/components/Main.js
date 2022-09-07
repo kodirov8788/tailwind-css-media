@@ -9,7 +9,7 @@ function Main() {
         main: 'w-3/5 m-auto  md:w-4/5 ',
         h1: "text-[30px] text-center sm:text-[50px]",
         icon: "block text-center m-auto text-[50px]",
-        imgWrap: " grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px]",
+        imgWrap: " grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl: gap-[40px]",
         img: ""
     }
     return (
