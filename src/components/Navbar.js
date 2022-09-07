@@ -10,7 +10,7 @@ function Navbar() {
         ul: 'flex list-none flex-[0.4] justify-around hidden lg:flex',
         icon: "text-[30px] lg:hidden",
         sidebar: `w-[400px] h-[300px] bg-green-600 absolute right-0 top-[80px] 
-        ${click ? 'translate-x-[0]' : 'translate-x-[500px]'} duration-[1s]`
+        ${click ? 'translate-x-[0] scale-[1]' : 'translate-x-[500px] scale-0'} duration-[.3s]`
     }
     return (
         <div className={style.nav}>
