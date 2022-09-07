@@ -9,8 +9,8 @@ function Navbar() {
         logo: "",
         ul: 'flex list-none flex-[0.4] justify-around hidden lg:flex',
         icon: "text-[30px] lg:hidden",
-        sidebar: `w-[400px] h-[300px] bg-green-600 absolute right-0 top-[80px] 
-        ${click ? 'translate-x-[0] scale-[1]' : 'translate-x-[500px] scale-0'} duration-[.3s]`
+        sidebar: `origin-top-right w-[400px] h-[300px] bg-green-600 absolute right-0 top-[80px] 
+        ${click ? 'scale-[1]' : 'scale-0'} duration-[.8s]`
     }
     return (
         <div className={style.nav}>
